@@ -33,6 +33,15 @@ agent any
 
 
 
+  stage ('SonarQube')
+             {
+               steps
+               {
+                 echo "SonarQube STAGE"
+               }
+
+             }
+
 
 
 
