@@ -47,10 +47,25 @@ agent any
      stage('inside parallel job') {
                steps
                {
-                 echo "parallel job"
+                 echo "parallel job1"
                }
 
              }
+
+ stage('inside parallel job') {
+               steps
+               {
+                 echo "parallel job2"
+               }
+
+             }
+
+
+
+
+
+
+     
    }
  }
 
