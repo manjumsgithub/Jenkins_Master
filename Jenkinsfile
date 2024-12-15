@@ -41,9 +41,18 @@ agent any
                }
 
              }
+parallel{
+  stage ('parallel')
+             {
+               steps
+               {
+                 echo "parallel STAGE"
+               }
+
+             }
 
 
-
+}
 
 
     
