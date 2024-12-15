@@ -47,7 +47,7 @@ agent any
      stage('inside parallel job') {
                steps
                {
-                 echo "SonarQube STAGE"
+                 echo "parallel job"
                }
 
              }
