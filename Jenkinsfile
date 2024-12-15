@@ -42,8 +42,29 @@ agent any
 
              }
 
- 
-             
+ stage ('parallel job'){
+   parallel{
+     stage('inside parallel job') {
+               steps
+               {
+                 echo "SonarQube STAGE"
+               }
+
+             }
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 }
