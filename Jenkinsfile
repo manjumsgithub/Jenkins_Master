@@ -1,14 +1,55 @@
 pipeline {
 agent any 
   stages {
-      stage ('Welcome to jenkins pipeline')
+      stage ('BUILD')
              {
                steps
                {
-                 echo "good morning banglore"
+                 echo "THIS IS BUILD STAGE"
                }
 
              }
+
+  stage ('TEST')
+             {
+               steps
+               {
+                 echo "THIS IS TEST STAGE"
+               }
+
+             }
+
+
+  stage ('DEPLOY')
+             {
+               steps
+               {
+                 echo "THIS IS DEPLOY STAGE"
+               }
+
+             }
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
              
 
 
