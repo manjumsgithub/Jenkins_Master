@@ -44,7 +44,7 @@ agent any
 
  stage ('parallel job'){
    parallel{
-     stage('inside parallel job') {
+     stage('inside parallel job1') {
                steps
                {
                  echo "parallel job1"
@@ -52,7 +52,7 @@ agent any
 
              }
 
- stage('inside parallel job') {
+ stage('inside parallel job2') {
                steps
                {
                  echo "parallel job2"
