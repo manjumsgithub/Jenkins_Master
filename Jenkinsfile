@@ -41,8 +41,11 @@ agent any
                }
 
              }
-parallel{
+
   stage ('parallel')
+    parallel{
+      stage ('test on parallel'){
+        
              {
                steps
                {
@@ -53,7 +56,7 @@ parallel{
 
 
 }
-
+    }
 
     
 
