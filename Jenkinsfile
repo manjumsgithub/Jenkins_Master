@@ -1,7 +1,7 @@
 pipeline {
 agent any 
   stages {
-      stage ("Welcome to jenkins pipeline"
+      stage ('Welcome to jenkins pipeline')
              {
                steps
                {
@@ -12,7 +12,7 @@ agent any
              
 
 
-  }
+        }
 
 
 
